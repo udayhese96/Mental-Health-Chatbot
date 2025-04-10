@@ -126,6 +126,16 @@ FLASK-CHATBOT/
 
 ---
 
+## 🖼️ **Flow Chart of Mental Health Chatbot**
+![Flow Chart](static/Flow_Chart_1.png)
+
+---
+
+## 🖼️ **System Architecure Diagram of Mental Health Chatbot**
+![System Architecure Diagram](static/System_Architecure_Diagram.png)
+
+---
+
 ## 🖼️ **UI Images**
 
 ### 1. **Home Page:**
