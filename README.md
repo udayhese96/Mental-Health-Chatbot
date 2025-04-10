@@ -132,19 +132,19 @@ FLASK-CHATBOT/
 
 The homepage of the chatbot can feature a welcoming interface that introduces users to the mental health chatbot and provides options to start a conversation or access helpful resources.
 
-![Home Page](static\Home_Page.png)
+![Home Page](static/Home_Page.png)
 
 ### 2. **Chat Page:**
 
 Once the user begins interacting, the chat page would provide a dynamic interface where they can ask questions and receive real-time responses.
 
-![Chat Page](static\Chat_Page.png)
+![Chat Page](static/Chat_Page.png)
 
 ### 3. **About Section:**
 
 The about section would give users insight into the purpose of the chatbot, the technology behind it, and how it can support them emotionally.
 
-![About Section](static\About_Page.png)
+![About Section](static/About_Page.png)
 
 ---
 
