@@ -65,7 +65,7 @@ source venv/bin/activate
 #### For Windows:
 ```bash
 python -m venv venv
-venv\Scriptsctivate
+venv\Scripts\activate
 ```
 
 *After activation, you should see `(venv)` in your terminal prompt.*
