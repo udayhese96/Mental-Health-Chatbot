@@ -10,7 +10,7 @@ import os
 def initialize_llm():
     llm = ChatGroq(
         temperature=0.3,
-        groq_api_key="You API Key",
+        groq_api_key=os.environ.get("GROQ_API_KEY"),
         model_name="llama3-8b-8192"
     )
     return llm
