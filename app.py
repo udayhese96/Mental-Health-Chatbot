@@ -1,8 +1,8 @@
+import os
 from flask import Flask, render_template, request, jsonify
 from chatbot import initialize_llm, setup_qa_chain, create_vector_db
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-import os
 
 app = Flask(__name__)
 llm = initialize_llm()
@@ -38,6 +38,7 @@ def ask():
     response = qa_chain.run(user_input)
     return jsonify({"response": response})
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
 
