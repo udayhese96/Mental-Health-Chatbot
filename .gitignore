@@ -2,3 +2,9 @@ chroma_db/
 __pycache__/
 *.pyc
 env/
+/static/About_Page.png
+/static/Chat_Page.png
+/static/Flow_Chart_1.png
+/static/Home_Page.png
+/static//static/About_Page.png
+/static/image.png
